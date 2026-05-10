@@ -158,7 +158,7 @@ export default function Playground() {
                   repeatType: "reverse",
                   ease: params.ease,
                 }}
-                className="w-40 h-40 bg-white rounded-[2rem] shadow-[0_0_80px_rgba(255,255,255,0.1)] flex items-center justify-center"
+                className="w-40 h-40 bg-white rounded-4xl shadow-[0_0_80px_rgba(255,255,255,0.1)] flex items-center justify-center"
               >
                 <div className="w-1.5 h-1.5 bg-black rounded-full" />
               </motion.div>
