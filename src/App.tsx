@@ -4,6 +4,7 @@ import Intro from "./components/sections/Intro";
 import Easings from "./components/sections/Easings";
 import Transforms from "./components/sections/Transforms";
 import Performance from "./components/sections/Performance";
+import Playground from "./components/sections/PlayGround";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Easings />
           <Transforms />
           <Performance />
+          <Playground/>
         </div>
       </main>
     </SmoothScroll>
