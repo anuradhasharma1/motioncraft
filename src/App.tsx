@@ -1,14 +1,14 @@
-
-import './App.css'
+import SmoothScroll from "./components/SmoothScroll";
+import Hero from "./components/sections/Hero";
 
 function App() {
-  
-
   return (
-    <>
-    <div>hey</div>
-    </>
-  )
+    <SmoothScroll>
+      <main className="relative selection:bg-black selection:text-white antialiased">
+        <Hero />
+      </main>
+    </SmoothScroll>
+  );
 }
 
-export default App
+export default App;
