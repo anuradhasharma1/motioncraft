@@ -53,7 +53,7 @@ export default function Hero() {
         transition={{ delay: 1.5, duration: 1 }}
         className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4"
       >
-        <span className="text-[10px] font-bold uppercase tracking-widest">
+        <span className="text-[10px] text-[#0380f4] font-bold uppercase tracking-widest">
           Explore
         </span>
         <motion.div
