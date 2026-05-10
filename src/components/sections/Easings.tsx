@@ -158,7 +158,7 @@ export default function Easings() {
                   repeatType: "reverse",
                   ease: activeCurve.value,
                 }}
-                className="absolute w-4 h-4 bg-black rounded-full -translate-x-1/2 translate-y-1/2 ring-4 ring-zinc-50"
+                className="absolute w-4 h-4 bg-[#0380f4] rounded-full -translate-x-1/2 translate-y-1/2 ring-4 ring-zinc-50"
               />
             </div>
 
