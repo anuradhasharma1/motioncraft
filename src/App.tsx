@@ -16,8 +16,21 @@ function App() {
           <Easings />
           <Transforms />
           <Performance />
-          <Playground/>
+          <Playground />
         </div>
+        <footer className="py-20 px-6 text-center bg-black text-white border-t border-zinc-900">
+          <p className="text-[10px] font-bold uppercase tracking-[0.4em] opacity-40">
+            By{" "}
+            <a
+              href="https://my-portfolio-five-smoky-45.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-100 transition-opacity duration-300 underline underline-offset-4"
+            >
+              Anuradha Sharma
+            </a>
+          </p>
+        </footer>
       </main>
     </SmoothScroll>
   );
